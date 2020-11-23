@@ -44,7 +44,7 @@ export default ({ notes }) => {
 
 export async function getServerSideProps() {
   // should put baseURL in .env file
-  const res = await fetch(`http://localhost:3000/api/note/`);
+  const res = await fetch(`${process.env.API_URL}/api/note/`);
   // data will come back as a data {}, and you can deconstruct it so it's not data.data
   const { data } = await res.json();
   // console.slog(data);
