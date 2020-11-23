@@ -1,0 +1,22 @@
+{
+  "../src/components/browser": [
+    {
+      "id": "./node_modules/react/cjs/react-jsx-dev-runtime.development.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react/jsx-dev-runtime.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./src/components/browser.jsx",
+      "file": "static/chunks/1.js"
+    }
+  ],
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
+    }
+  ]
+}
